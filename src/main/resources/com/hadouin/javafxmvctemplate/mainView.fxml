@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="TOP_CENTER" prefWidth="300.0" spacing="25.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hadouin.javafxmvctemplate.MainView">
+   <children>
+      <Label fx:id="theLabel" text="Label" />
+      <TextField fx:id="theTextField" />
+      <Button fx:id="theButton" mnemonicParsing="false" onAction="#onButtonClick" text="s̴͇̟̋e̶̼͐n̶̢̹̋̆͜͝d̸̜̘̿" />
+   </children>
+   <padding>
+      <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+   </padding>
+</VBox>
